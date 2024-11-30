@@ -1,0 +1,10 @@
+.shimmer.searchFilter>*{
+    background-color: #ccc;
+}
+
+.shimmer.countries-container>*{
+    background-color: #ccc;
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+}
