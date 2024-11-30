@@ -3,6 +3,7 @@
 # dependencies
 node_modules
 dist
+.parcel-cache
 backend/node_modules
 /.pnp
 .pnp.js
