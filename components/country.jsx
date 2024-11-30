@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../styles/SpecificCountry.module.css';
+import * as style from '../styles/SpecificCountry.module.css';
 import '../index.css';
 import BorderCountries from './BorderCountries';
 import { useTheme } from '../hooks/Theme';
@@ -59,7 +59,7 @@ const SpecificCountry = () => {
 
     return (
         <>
-            <main className={`${styles.specificCountry} ${mode === true ? 'darkMode' : ''}`}>
+            <main className={`${style.specificCountry} ${mode === true ? 'darkMode' : ''}`}>
                 <div className="specificCountry">
                     <a className="backbtn" onClick={() => {
                         window.history.back()
